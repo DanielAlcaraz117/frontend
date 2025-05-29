@@ -1,5 +1,6 @@
 // src/axiosConfig.js
-import axios from 'src/axiosConfig'; // Sin llaves {}
+import axios from './axiosConfig';
+ // Sin llaves {}
 
 const instance = axios.create({
   baseURL: process.env.REACT_APP_API_URL || 'https://backend-3qjn.onrender.com',
