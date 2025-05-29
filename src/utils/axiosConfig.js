@@ -1,6 +1,5 @@
 // src/axiosConfig.js
-import axios from './axiosConfig';
- // Sin llaves {}
+import axios from 'axios';
 
 const instance = axios.create({
   baseURL: process.env.REACT_APP_API_URL || 'https://backend-3qjn.onrender.com',
@@ -10,4 +9,4 @@ const instance = axios.create({
   }
 });
 
-export default instance; // Esta es la línea clave que falta
+export default instance;
