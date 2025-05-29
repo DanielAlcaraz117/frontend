@@ -1,19 +1,19 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import Login from './src/components/login';
+import Login from './components/login';
 import './styles/style.css';
-import CrearUsuario from './src/components/CrearUsuario';
-import RegistroAlumno from './src/components/RegistroAlumno';
-import RegistroMaestro from './src/components/RegistroMaestro';
-import DashboardMaestro from './src/components/DashboardMaestro';
-import DashboardAlumno from './src/components/DashboardAlumno';
-import NuevaAsesoria from './src/components/NuevaAsesoria';
-import SolicitarAsesoria from './src/components/SolicitarAsesoria';
-import VerAsesoria from './src/components/VerAsesoria';
-import VerAsesoriaTotales from './src/components/VerAsesoriaTotales';
-import EditarAsesoria from './src/components/EditarAsesoria';
-import PagoAsesoria from './src/components/PagoAsesoria';
-import VerDetalleAsesoria from './src/components/VerDetalleAsesoria';
+import CrearUsuario from './components/CrearUsuario';
+import RegistroAlumno from './components/RegistroAlumno';
+import RegistroMaestro from './components/RegistroMaestro';
+import DashboardMaestro from './components/DashboardMaestro';
+import DashboardAlumno from './components/DashboardAlumno';
+import NuevaAsesoria from './components/NuevaAsesoria';
+import SolicitarAsesoria from './components/SolicitarAsesoria';
+import VerAsesoria from './components/VerAsesoria';
+import VerAsesoriaTotales from './components/VerAsesoriaTotales';
+import EditarAsesoria from './components/EditarAsesoria';
+import PagoAsesoria from './components/PagoAsesoria';
+import VerDetalleAsesoria from './components/VerDetalleAsesoria';
 
 function App() {
   return (
