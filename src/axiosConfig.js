@@ -1,15 +1,12 @@
-// Axios (recomendado)
-import axios from 'axios';
+// src/axiosConfig.js
+import axios from '../axiosConfig'; // Sin llaves {}
 
-const api = axios.create({
-  baseURL: 'https://backend-3qjn.onrender.com/api',
+const instance = axios.create({
+  baseURL: process.env.REACT_APP_API_URL || 'https://backend-3qjn.onrender.com',
   withCredentials: true,
   headers: {
-    'Content-Type': 'application/json',
+    'Content-Type': 'application/json'
   }
 });
 
-// Ejemplo de uso
-api.get('/endpoint')
-  .then(response => console.log(response.data))
-  .catch(error => console.error('Error:', error));
+export default instance; // Esta es la línea clave que falta
