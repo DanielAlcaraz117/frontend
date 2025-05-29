@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import axios from '../axiosConfig'; // Asegúrate de que la ruta sea correcta
+import axios from '../utils/axiosConfig';
+ // Asegúrate de que la ruta sea correcta
 import { useNavigate } from 'react-router-dom';
 
 const RegistroAlumno = () => {

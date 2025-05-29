@@ -1,7 +1,8 @@
 // Login.js
 import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
-import axios from 'axios'; // ✅ Cambia la importación si ya eliminaste axiosConfig.js
+import axios from '../utils/axiosConfig';
+
 
 const Login = () => {
   const [email, setEmail] = useState('');
