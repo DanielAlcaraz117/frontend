@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Login from './components/login';
-import 'src\styles\style.css';
+import './styles/style.css';
 import CrearUsuario from './components/CrearUsuario';
 import RegistroAlumno from './components/RegistroAlumno';
 import RegistroMaestro from './components/RegistroMaestro';
