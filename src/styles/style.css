@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    background-image: url('./.Fondo1.jpeg'); /* Imagen de fondo */
+    background-image: url('/Fondo1.jpeg');
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
